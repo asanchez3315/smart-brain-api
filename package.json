@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "start:dev": "nodemon --watch"
+    "start:dev": "node --watch"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +20,6 @@
     "knex": "^0.16.5",
     "pg": "^7.4.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.0"
-  },
+  "devDependencies": {},
   "description": ""
 }
